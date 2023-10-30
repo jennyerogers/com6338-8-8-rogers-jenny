@@ -82,3 +82,4 @@ form.onsubmit = function (e) {
             weather.appendChild(notFound)
         });
 }
+//even though my tests run fine, when i type in something like "mexico city" or "memphis, US", the icon doesn't appear? it might just be because it's night time in those areas
