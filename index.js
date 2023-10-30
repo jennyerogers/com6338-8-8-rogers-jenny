@@ -78,7 +78,7 @@ form.onsubmit = function (e) {
         })
         .catch(function () {
             var notFound = document.createElement('p')
-            notFound.textContent = 'Location is not found!'
+            notFound.textContent = 'Location not found'
             weather.appendChild(notFound)
         });
 }
